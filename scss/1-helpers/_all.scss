@@ -1,0 +1,16 @@
+$ff-primary: 'Poppins', sans-serif;
+$ff-secondary: 'Roboto', sans-serif;
+
+$clr-dark-bg: #262323;
+$clr-accent: #478bf2;
+$clr-light: rgba(255, 255, 255, 0.7);
+$clr-watermark: rgba(255, 255, 255, 0.05);
+
+@mixin bgImage {
+  background-color: $clr-dark-bg;
+  background-image: url('/assets/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}

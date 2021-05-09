@@ -1,0 +1,46 @@
+.skills {
+  padding: 8rem 1.5rem;
+  @include bgImage;
+
+  header {
+    position: relative;
+    margin-bottom: 6rem;
+    z-index: 1;
+  }
+
+  .watermark {
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: -1;
+  }
+}
+
+.skills-contents {
+  & > div {
+    width: 30%;
+    min-width: 400px;
+    max-width: 450px;
+    padding: 2rem;
+  }
+}
+
+.skills-info {
+  svg {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+    font-weight: 500;
+    letter-spacing: 3px;
+    margin-left: -3px;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    line-height: 1.6;
+    font-size: 1.15rem;
+    color: rgba(255, 255, 255, 0.9);
+  }
+}

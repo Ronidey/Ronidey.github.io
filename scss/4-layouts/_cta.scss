@@ -1,0 +1,21 @@
+.cta {
+  @include bgImage;
+
+  h2 {
+    font-size: 1.75rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    margin-right: -10px;
+    font-weight: 400;
+  }
+
+  a {
+    font-size: 1.5rem;
+    background: #ffffff;
+    color: #040e10;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    font-weight: 600;
+  }
+}
